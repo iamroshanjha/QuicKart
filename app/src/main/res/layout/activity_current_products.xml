@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical" >
+    <LinearLayout
+        android:orientation="vertical" android:layout_height="fill_parent"
+        android:layout_width="fill_parent" android:background="@color/white">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColorHint="@color/Black"
+            android:textColor="@color/Black"
+            android:textSize="24dip"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Products"
+            >
+        </TextView>
+        <TableLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/myTableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:stretchColumns="*"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:clickable="true">
+
+
+            <TableRow
+                android:id="@+id/tablerow1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Id"
+                    android:textSize="20dip"
+                    android:background="@color/white"
+                    android:textColorHint="@color/Black"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product"
+                    android:textSize="20dip"
+                    android:background="@color/white"
+                    android:textColorHint="@color/Black"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textSize="20dip"
+                    android:background="@color/white"
+                    android:textColorHint="@color/Black"
+                    android:textColor="@color/Black"/>
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView>

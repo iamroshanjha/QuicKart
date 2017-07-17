@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "422422050716",
+    "firebase_url": "https://quickart-cdbcd.firebaseio.com",
+    "project_id": "quickart-cdbcd",
+    "storage_bucket": "quickart-cdbcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422422050716:android:4c0efa4813be5cfc",
+        "android_client_info": {
+          "package_name": "com.a0quickcartgmail.quickart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422422050716-539k9k6qnr1jso8606ji3070s7ebohba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a0quickcartgmail.quickart",
+            "certificate_hash": "16FF483CD33D16A68933FA501CA278A08D369406"
+          }
+        },
+        {
+          "client_id": "422422050716-k9sb2e6pqsr9nndpuf0g7lk148k1l78t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdnTDH_-tVFuc089VpEVB6U-J2lxxUfqI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422422050716-k9sb2e6pqsr9nndpuf0g7lk148k1l78t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

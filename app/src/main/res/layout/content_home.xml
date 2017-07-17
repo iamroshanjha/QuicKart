@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:layout_margin="5pt">
+
+
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        />
+<!--
+        <EditText
+            android:id="@+id/editTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product ID"
+            android:background="@color/white"
+            android:textColorHint="@color/Black"
+            android:textColor="@color/Black"
+            android:layout_margin="5pt" />
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Name"
+            android:background="@color/white"
+            android:textColorHint="@color/Black"
+            android:textColor="@color/Black"
+            android:layout_margin="5pt" />
+
+
+        <EditText
+            android:id="@+id/editTextPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:background="@color/white"
+            android:textColorHint="@color/Black"
+            android:textColor="@color/Black"
+            android:layout_margin="5pt" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_marginTop="5pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Product"
+            android:textColor="@color/white"
+            android:fadingEdge="horizontal|vertical"
+            android:textStyle="normal|bold"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:padding="5pt" />
+            -->
+
+
+    <Button
+        android:id="@+id/buttonShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Scan Product"
+        android:textColor="@color/white"
+        android:fadingEdge="horizontal|vertical"
+        android:background="@drawable/shape"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:layout_marginTop="95dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+
